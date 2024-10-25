@@ -54,12 +54,15 @@ p{
     color: #2e2f42;
 }
 
-.link:hover, .link:active{
+.link:hover, .link:focus{
     color:#404BBF;
 }
 
 .header-addresses{
     font-style: normal;
+}
+.header-addresses>ul>li>a{
+        color: #434455;
 }
 .hero-image{
     background: #2E2F42;
@@ -83,7 +86,7 @@ p{
     font-family: "Roboto", sans-serif;
 }
 
-.button:hover, .button:active{
+.button:hover, .button:focus{
     background-color: #404BBF;
     cursor: pointer;
 }
