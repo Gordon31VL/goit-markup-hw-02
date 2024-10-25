@@ -69,13 +69,13 @@ p{
     text-align: center;
     color: #ffffff;
 }
-.order{
+.button{
     letter-spacing: 4%;
     color: #ffffff;
     background-color: #4D5AE5;
 }
 
-.order:hover{
+.button:hover{
     background-color: #404BBF;
 }
 
