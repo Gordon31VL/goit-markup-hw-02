@@ -15,7 +15,7 @@ ul, ol {
     list-style-type: none;
 }
 
-h2 {
+.portfolio-text, .teams-text, .benefits-text {
     font-weight: bold;
     font-size: 36px;
     line-height: 1.11;
@@ -25,13 +25,13 @@ h2 {
     color: #2e2f42;
 }
 
-h3 {
+.example, .person-name, .person-name{
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-p{
+.specialization, .benefits-description, .example{
     color: #434455;
     letter-spacing: 0.02em;
 }
