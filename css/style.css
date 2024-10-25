@@ -29,6 +29,7 @@ h3 {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 p{
     color: #434455;
@@ -95,9 +96,17 @@ p{
     background-color: #F4F4FD;
 }
 
+.team-list{
+    background-color: #ffffff;
+}
+
 .footer {
     background-color: #2E2F42;
 }
 .footer>a>span{
     color:#f4f4fd;
+}
+
+.footer-p{
+    color: #F4F4FD;
 }
