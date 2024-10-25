@@ -71,6 +71,7 @@ p{
     line-height: 1.07;
     text-align: center;
     color: #ffffff;
+    letter-spacing: 0.02em;
 }
 .button{
     letter-spacing: 0.04em;
@@ -79,9 +80,10 @@ p{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    font-family: "Roboto", sans-serif;
 }
 
-.button:hover{
+.button:hover, .button:active{
     background-color: #404BBF;
     cursor: pointer;
 }
