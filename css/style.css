@@ -18,11 +18,17 @@ ul, ol {
 h2 {
     font-weight: bold;
     font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 
 h3 {
     font-weight: 500;
     font-size: 20px;
+    letter-spacing: 0.02em;
 }
 p{
     color: #F4F4FD;
@@ -42,19 +48,16 @@ p{
     color: #2e2f42;
 }
 
-.header>a {
+.link{
     font-size: 16px;
-    text-transform: 500;
+    font-weight: 500;
+    color: #2e2f42;
 }
 
-.link:hover{
+.link:hover, .link:active{
     color:#404BBF;
 }
 
-.link:active{
-    color:#404bbf;
-    text-decoration: underline;
-}
 .header-addresses{
     font-style: normal;
 }
@@ -70,13 +73,17 @@ p{
     color: #ffffff;
 }
 .button{
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
     color: #ffffff;
     background-color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .button:hover{
     background-color: #404BBF;
+    cursor: pointer;
 }
 
 .teams {
