@@ -2,7 +2,6 @@ body {
     background-color: white;
     font-family: 'Roboto', sans-serif;
     color: #2E2F42;
-    letter-spacing: 2%;
     line-height: 24px;
     font-size: 16px;
 }
@@ -49,6 +48,11 @@ h3 {
     color:#404BBF;
 }
 
+.link:active{
+    color:#404BBF;
+    text-decoration: underline;
+}
+
 .hero-image{
     background: #2E2F42;
     
@@ -72,4 +76,16 @@ h1{
 
 .order:hover{
     background-color: #404BBF;
+}
+
+.teams {
+    background-color: #F4F4FD;
+}
+
+.footer {
+    background-color: #2E2F42;
+    width: 1440px;
+    height: 312px;
+    top: 2988px;
+    color:#ffffff
 }
